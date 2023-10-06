@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Gabarito:wght@500&family=Lato&family=Mukta:wght@600&family=MuseoModerno:wght@600&family=Open+Sans&family=PT+Sans:wght@700&family=Poppins:wght@500&family=REM:wght@300&family=Roboto+Condensed&family=Roboto+Slab&family=Tilt+Neon&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'gabarito';
+}
+
+a:link, :visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: green;
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    word-spacing: 40px;
+}
+
+.navbar li {
+    display: inline; 
+}
+
+.slider-container {
+    width: 100%;  
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: gray;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px; 
+    border-radius: 5px;
+}
+
+.slide-pic {
+    width: 100%;
+    height: 400px;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
