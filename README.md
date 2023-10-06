@@ -1,6 +1,6 @@
 TODO List:
--add underline animation to a:hover
+-add underlined animation to a:hover
 -fix slide show
--add shopping cart to nav
--shift nav link to right and logo to left
+-add a shopping cart to the nav
+-shift the nav link to the right and the logo to the left
 -figure out what to do with the rest of the home page
