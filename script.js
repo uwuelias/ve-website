@@ -1,25 +1,22 @@
-const slider = document.querySelector('.slider');
-const prevButton = document.querySelector('#prev');
-const nextButton = document.querySelector('#next');
-let slideIndex = 0;
+/*
+let slideIndex = 1;
+showSlides(slideIndex);
 
-function slideTo(index) {
-    slider.style.transform = `translateX(-${index * 100}%)`;
+function plusSlides(n) {
+  showSlides((slideIndex += n));
 }
 
-function nextSlide() {
-    if (slideIndex < slider.children.length - 1) {
-        slideIndex++;
-        slideTo(slideIndex);
-    }
+function showSlides(n) {
+  let slides = document.getElementsByClassName("slide");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
 }
-
-function prevSlide() {
-    if (slideIndex > 0) {
-        slideIndex--;
-        slideTo(slideIndex);
-    }
-}
-
-nextButton.addEventListener('click', nextSlide);
-prevButton.addEventListener('click', prevSlide);
+*/
